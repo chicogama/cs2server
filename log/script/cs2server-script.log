@@ -1,0 +1,9 @@
+Dec 06 21:13:12.170 cs2server: START: PASS: Started LinuxGSM
+Dec 06 21:13:12.273 cs2server: START: PASS: Started LinuxGSM
+Dec 06 21:13:12.279 cs2server: START: INFO: LinuxGSM version: v23.7.0
+Dec 06 21:13:12.280 cs2server: START: PASS: core_exit.sh exiting with code: 0
+Dec 06 21:16:28.433 cs2server: CORE: PASS: Downloading command_stop.sh...
+Dec 06 21:16:30.837 cs2server: STOP: INFO: Graceful: sending "quit"
+Dec 06 21:16:35.548 cs2server: STOP: PASS: Graceful: sending "quit": OK: 3 seconds
+Dec 06 21:16:35.557 cs2server: STOP: INFO: LinuxGSM version: v23.7.0
+Dec 06 21:16:35.558 cs2server: STOP: PASS: core_exit.sh exiting with code: 0

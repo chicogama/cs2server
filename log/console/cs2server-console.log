@@ -1,0 +1,712 @@
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libengine2.so, got 0x5566fb4a4de0
+WARNING: setlocale('en_US.UTF-8') failed, using locale: 'C'. International characters may not work.
+
+Console initialized.
+Steam AppId(730), BreakpadId(2347771)
+InitSteamLogin_Internal: Initializing breakpad.
+Using breakpad crash handler
+Steam Universe is invalid, possibly asking before Steam was successfully initialized.
+ResetBreakpadAppId: Universe is 0 (k_EUniverseInvalid)
+ResetBreakpadAppId: Setting dedicated server app id: 2347773
+Setting breakpad minidump AppID = 2347773
+Forcing breakpad minidump interfaces to load
+Looking up breakpad interfaces from steamclient
+Calling BreakpadMiniDumpSystemInit
+Loaded libSDL3.so.0, got 0x5566fb5a7410
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libtier0.so, got 0x5566fb48e260
+Visibility enabled.
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libfilesystem_stdio.so, got 0x5566fb5a78d0
+USRLOCAL path not found!
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/liblocalize.so, got 0x5566fb5b99e0
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/librendersystemempty.so, got 0x5566fb5cbf10
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libresourcesystem.so, got 0x5566fb5de440
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libschemasystem.so, got 0x5566fb5f0550
+Trying to set dxlevel (111) which is higher than the card can support (110)!
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libmaterialsystem2.so, got 0x5566fb602660
+---------------
+Path ID:             File Path:
+ADDONS               "/home/cs2server/serverfiles/game/csgo_addons/" 
+CONTENT              "/home/cs2server/serverfiles/content/csgo/" 
+CONTENT              "/home/cs2server/serverfiles/content/csgo_imported/" 
+CONTENT              "/home/cs2server/serverfiles/content/csgo_core/" 
+CONTENT              "/home/cs2server/serverfiles/content/core/" 
+CONTENTADDONS        "/home/cs2server/serverfiles/content/csgo_addons/" 
+CONTENTROOT          "/home/cs2server/serverfiles/content/" 
+DEFAULT_WRITE_PATH   "/home/cs2server/serverfiles/game/csgo/pak01.vpk" (vpk) /home/cs2server/serverfiles/game/csgo/pak01.vpk
+DEFAULT_WRITE_PATH   "/home/cs2server/serverfiles/game/csgo/" 
+EXECUTABLE_PATH      "/home/cs2server/serverfiles/game/bin/linuxsteamrt64/" 
+GAME                 "/home/cs2server/serverfiles/game/csgo/pak01.vpk" (vpk) /home/cs2server/serverfiles/game/csgo/pak01.vpk
+GAME                 "/home/cs2server/serverfiles/game/csgo_imported/pak01.vpk" (vpk) /home/cs2server/serverfiles/game/csgo_imported/pak01.vpk
+GAME                 "/home/cs2server/serverfiles/game/csgo_core/pak01.vpk" (vpk) /home/cs2server/serverfiles/game/csgo_core/pak01.vpk
+GAME                 "/home/cs2server/serverfiles/game/core/pak01.vpk" (vpk) /home/cs2server/serverfiles/game/core/pak01.vpk
+GAME                 "/home/cs2server/serverfiles/game/csgo/" 
+GAME                 "/home/cs2server/serverfiles/game/csgo_imported/" 
+GAME                 "/home/cs2server/serverfiles/game/csgo_core/" 
+GAME                 "/home/cs2server/serverfiles/game/core/" 
+GAMEBIN              "/home/cs2server/serverfiles/game/csgo/bin/linuxsteamrt64/" 
+GAMEBIN              "/home/cs2server/serverfiles/game/csgo/bin/" 
+GAMEBIN              "/home/cs2server/serverfiles/game/csgo_imported/bin/linuxsteamrt64/" 
+GAMEBIN              "/home/cs2server/serverfiles/game/csgo_imported/bin/" 
+GAMEBIN              "/home/cs2server/serverfiles/game/csgo_core/bin/linuxsteamrt64/" 
+GAMEBIN              "/home/cs2server/serverfiles/game/csgo_core/bin/" 
+GAMEBIN              "/home/cs2server/serverfiles/game/core/bin/linuxsteamrt64/" 
+GAMEBIN              "/home/cs2server/serverfiles/game/core/bin/" 
+GAMEROOT             "/home/cs2server/serverfiles/game/" 
+MOD                  "/home/cs2server/serverfiles/game/csgo/pak01.vpk" (vpk) /home/cs2server/serverfiles/game/csgo/pak01.vpk
+MOD                  "/home/cs2server/serverfiles/game/csgo_imported/pak01.vpk" (vpk) /home/cs2server/serverfiles/game/csgo_imported/pak01.vpk
+MOD                  "/home/cs2server/serverfiles/game/csgo_core/pak01.vpk" (vpk) /home/cs2server/serverfiles/game/csgo_core/pak01.vpk
+MOD                  "/home/cs2server/serverfiles/game/csgo/" 
+MOD                  "/home/cs2server/serverfiles/game/csgo_imported/" 
+MOD                  "/home/cs2server/serverfiles/game/csgo_core/" 
+PLATFORM             "/home/cs2server/serverfiles/game/core/pak01.vpk" (vpk) /home/cs2server/serverfiles/game/core/pak01.vpk
+PLATFORM             "/home/cs2server/serverfiles/game/core/" 
+SHADER_SOURCE        "/home/cs2server/serverfiles/src/shaders/csgo/" 
+SHADER_SOURCE        "/home/cs2server/serverfiles/src/shaders/csgo_imported/" 
+SHADER_SOURCE        "/home/cs2server/serverfiles/src/shaders/csgo_core/" 
+SHADER_SOURCE        "/home/cs2server/serverfiles/src/shaders/core/" 
+SHADER_SOURCE_MOD    "/home/cs2server/serverfiles/src/shaders/csgo/" 
+SHADER_SOURCE_ROOT   "/home/cs2server/serverfiles/src/shaders/" 
+command line arguments:
+-dedicated -ip 0.0.0.0 -port 27015 -maxplayers 16 -tickrate 64 -serverlogging +sv_setsteamaccount +map de_dust2 +game_type 0 +game_mode 1 +sv_game_mode_flags 0 +sv_skirmish_id 0 +sv_logfile 1 +exec cs2server.cfg
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libmeshsystem.so, got 0x5566fb614fb0
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libworldrenderer.so, got 0x5566fb6274e0
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libpulse_system.so, got 0x5566fb639e30
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libvscript.so, got 0x5566fb64e830
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libnetworksystem.so, got 0x5566fb660940
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libanimationsystem.so, got 0x5566fb674b50
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libvphysics2.so, got 0x5566fb68aa40
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libsoundsystem.so, got 0x5566fb69dbd0
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libscenesystem.so, got 0x5566fb6b3ee0
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libv8system.so, got 0x5566fb6c9170
+Network System Initialized
+L 12/06/2023 - 21:13:14: server_cvar: "phys_use_position_based_toi_test" "true"
+L 12/06/2023 - 21:13:14: server_cvar: "phys_implicit_integarator" "true"
+L 12/06/2023 - 21:13:14: server_cvar: "phys_drag_multiplier" "1.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "phys_buoyancy_vertical_damping_multiplier" "1.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "phys_buoyancy_angular_damping_multiplier" "1.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "phys_buoyancy_drag_multiplier" "1.000000"
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libserver_valve.so, got (nil)
+ failed to dlopen /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libserver_valve.so error=/home/cs2server/serverfiles/game/bin/linuxsteamrt64/libserver_valve.so: cannot open shared object file: No such file or directory
+ failed to dlopen "/home/cs2server/serverfiles/game/bin/linuxsteamrt64/libserver_valve.so" error=/home/cs2server/serverfiles/game/bin/linuxsteamrt64/libserver_valve.so: cannot open shared object file: No such file or directory
+Loaded libserver_valve.so, got (nil)
+ failed to dlopen libserver_valve.so error=libserver_valve.so: cannot open shared object file: No such file or directory
+ failed to dlopen "libserver_valve.so" error=libserver_valve.so: cannot open shared object file: No such file or directory
+Loaded /home/cs2server/serverfiles/game/csgo/bin/linuxsteamrt64/libserver.so, got 0x5566fb6e33c0
+L 12/06/2023 - 21:13:14: server_cvar: "mp_forcerespawn" "true"
+L 12/06/2023 - 21:13:14: server_cvar: "decalfrequency" "10.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_stopspeed" "80.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_noclipaccelerate" "5.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_noclipspeed" "1200.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_noclipfriction" "4.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_specaccelerate" "5.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_specspeed" "1200.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_specnoclip" "true"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_maxspeed" "320.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_accelerate" "5.500000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_airaccelerate" "12.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_wateraccelerate" "10.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_waterfriction" "1.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_footsteps" "1.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_rollspeed" "200.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_friction" "5.200000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_stepsize" "18.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_mover_pogofrequency" "10.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_mover_pogodampingratio" "1.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_mover_maxslope" "0.700000"
+L 12/06/2023 - 21:13:14: server_cvar: "r_JeepViewDampenFreq" "7.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "r_JeepViewDampenDamp" "1.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "r_JeepViewZHeight" "10.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "r_AirboatViewDampenFreq" "7.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "r_AirboatViewDampenDamp" "1.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_allchat" "true"
+L 12/06/2023 - 21:13:14: server_cvar: "buddha_reset_hp" "1"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_accelerate_use_weapon_speed" "true"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_terrorist_win_bomb" "3500"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_elimination_hostage_map_t" "1000"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_elimination_hostage_map_ct" "2000"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_elimination_bomb_map" "3250"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_survive_guardian_wave" "1000"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_win_by_time_running_out_hostage" "3250"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_win_by_time_running_out_bomb" "3250"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_win_by_defusing_bomb" "3250"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_win_by_hostage_rescue" "3500"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_loser_bonus" "1400"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_loser_bonus_consecutive_rounds" "500"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_planted_bomb_but_defused" "800"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_team_hostage_interaction" "500"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_player_killed_teammate" "-300"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_player_killed_enemy_factor" "1.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_player_killed_enemy_default" "300"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_player_bomb_planted" "300"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_player_bomb_defused" "300"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_player_rescued_hostage" "1000"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_player_interact_with_hostage" "150"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_player_damage_hostage" "-30"
+L 12/06/2023 - 21:13:14: server_cvar: "cash_player_killed_hostage" "-1000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_competitive_minspec" "true"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_kick_ban_duration" "15.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_spec_hear" "1"
+L 12/06/2023 - 21:13:14: server_cvar: "mp_c4timer" "40"
+L 12/06/2023 - 21:13:14: server_cvar: "mp_roundtime" "5.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "mp_team_intro_time" "6.500000"
+L 12/06/2023 - 21:13:14: server_cvar: "mp_freezetime" "6"
+L 12/06/2023 - 21:13:14: server_cvar: "mp_limitteams" "2"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_teamid_overhead" "true"
+L 12/06/2023 - 21:13:14: server_cvar: "mp_autoteambalance" "true"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_max_allowed_net_graph" "1"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_gravity" "800.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_vote_issue_kick_allowed" "true"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_vote_kick_ban_duration" "15.000000"
+L 12/06/2023 - 21:13:14: server_cvar: "sv_vote_issue_loadbackup_allowed" "true"
+Physics Console Communications is not initialized
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libengine2.so, got 0x5566fb4a4de0
+Loaded /home/cs2server/serverfiles/game/csgo/bin/linuxsteamrt64/libhost.so, got 0x5566fb713b90
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libscenefilecache.so, got 0x5566fb727140
+Loaded /home/cs2server/serverfiles/game/bin/linuxsteamrt64/libparticles.so, got 0x5566fb739250
+Loaded /home/cs2server/serverfiles/game/csgo/bin/linuxsteamrt64/libmatchmaking.so, got 0x5566fb74cc20
+No .vcds loaded or no scenes/scenes.vrman
+GameTypes: missing mapgroupsSP entry for game type/mode (custom/custom).
+GameTypes: missing mapgroupsSP entry for game type/mode (cooperative/cooperative).
+GameTypes: missing mapgroupsSP entry for game type/mode (cooperative/coopmission).
+Event System loaded 93 events from file: vpk:/home/cs2server/serverfiles/game/core/pak01.vpk:resource/core.gameevents.
+Event System loaded 50 events from file: vpk:/home/cs2server/serverfiles/game/csgo/pak01.vpk:resource/game.gameevents.
+Event System loaded 152 events from file: vpk:/home/cs2server/serverfiles/game/csgo/pak01.vpk:./resource/mod.gameevents.
+CEntitySystem::BuildEntityNetworking (parallel build of server) took 26.216 msecs for 218 out of 297 classes
+[STARTUP] {3.542} server module init ok
+CHostStateMgr::QueueNewRequest( Idle (console), 1 )
+Source2Init OK
+HostStateRequest::Start(HSR_IDLE):  loop(console) id(1) addons() desc(Idle (console))
+SwitchToLoop console requested:  id [1] addons []
+Host activate: Idle (console)
+Usage: sv_setsteamaccount <login_token>
+Loading map "de_dust2"
+CHostStateMgr::QueueNewRequest( Loading (de_dust2), 2 )
+execing cs2server.cfg
+Loading map "de_anubis"
+CHostStateMgr::QueueNewRequest( Loading (de_anubis), 3 )
+Usage: host_workshop_collection <fileid>
+Usage: host_workshop_map <fileid>
+Discarding queued request 'Loading (de_dust2), 2'
+HostStateRequest::Start(HSR_GAME):  loop(levelload) id(3) addons() desc(Loading (de_anubis))
+SwitchToLoop levelload requested:  id [3] addons []
+SV:  Level loading started for 'de_anubis'
+CL:  CLoopModeLevelLoad::MaybeSwitchToGameLoop switching to "game" loopmode with addons ()
+SwitchToLoop game requested:  id [3] addons []
+SteamGameServer_Init()
+dlopen failed trying to load:
+steamclient.so
+with error:
+steamclient.so: cannot open shared object file: No such file or directory
+[S_API] SteamAPI_Init(): Loaded '/home/cs2server/.steam/sdk64/steamclient.so' OK.  (First tried local 'steamclient.so')
+CAppInfoCacheReadFromDiskThread took 7 milliseconds to initialize
+dlmopen steamservice.so failed: steamservice.so: cannot open shared object file: No such file or directory
+Setting breakpad minidump AppID = 730
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561197960265728 [API loaded yes]
+SteamInternal_SetMinidumpSteamID:  Setting Steam ID:  76561197960265728
+Looking up breakpad interfaces from steamclient
+Calling BreakpadMiniDumpSystemInit
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561197960265728 [API loaded yes]
+SteamInternal_SetMinidumpSteamID:  Setting Steam ID:  76561197960265728
+[S_API FAIL] Tried to access Steam interface SteamUtils010 before SteamAPI_Init succeeded.
+Steam Universe valid after having been requested when invalid.  Universe is now 1
+ResetBreakpadAppId: Universe is 1 (k_EUniversePublic)
+ResetBreakpadAppId: Setting dedicated server app id: 2347773
+Setting breakpad minidump AppID = 2347773
+SteamGameServer_Init() OK, logging on to Steam
+****************************************************
+*                                                  *
+*  No Steam account token was specified.           *
+*  Logging into anonymous game server account.     *
+*  Connections will be restricted to LAN only.     *
+*                                                  *
+*  To create a game server account go to           *
+*  http://steamcommunity.com/dev/managegameservers *
+*                                                  *
+****************************************************
+CNetworkSystem::InitGameServer: SteamGameServerNetworking() OK
+Initialized low level socket/threading support.
+SDR_LISTEN_PORT is set, but not SDR_CERT/SDR_PRIVATE_KEY.
+Set SteamNetworkingSockets P2P_STUN_ServerList to '' as per SteamNetworkingSocketsSerialized
+CNetworkGameServerBase::SetServerState (ss_dead -> ss_waitingforgamesessionmanifest)
+SV:  maxplayers set to 16
+Server is hibernating
+ResetGameConVarsToDefaults
+Server logging data to file logs/2023_12_06_211314.log
+L 12/06/2023 - 21:13:14: Log file started (file "logs/2023_12_06_211314.log") (game "csgo") (version "9842")
+L 12/06/2023 - 21:13:14: Loading map "de_anubis"
+L 12/06/2023 - 21:13:14: server cvars start
+L 12/06/2023 - 21:13:14: "tv_password" = ""
+L 12/06/2023 - 21:13:14: "tv_advertise_watchable" = "false"
+L 12/06/2023 - 21:13:14: "sv_voiceenable" = "true"
+L 12/06/2023 - 21:13:14: "sv_password" = ""
+L 12/06/2023 - 21:13:14: "sv_tags" = ""
+L 12/06/2023 - 21:13:14: "sv_steamgroup" = ""
+L 12/06/2023 - 21:13:14: "sv_cheats" = "false"
+L 12/06/2023 - 21:13:14: "sv_debug_overlays_broadcast" = "false"
+L 12/06/2023 - 21:13:14: "tv_relaypassword" = ""
+L 12/06/2023 - 21:13:14: "tv_enable_dynamic" = "false"
+L 12/06/2023 - 21:13:14: "tv_enable" = "false"
+L 12/06/2023 - 21:13:14: "tv_enable1" = "false"
+L 12/06/2023 - 21:13:14: "sv_alltalk" = "false"
+L 12/06/2023 - 21:13:14: "mp_friendlyfire" = "false"
+L 12/06/2023 - 21:13:14: "sv_stopspeed" = "80.000000"
+L 12/06/2023 - 21:13:14: "sv_noclipaccelerate" = "5.000000"
+L 12/06/2023 - 21:13:14: "sv_noclipspeed" = "1200.000000"
+L 12/06/2023 - 21:13:14: "sv_noclipfriction" = "4.000000"
+L 12/06/2023 - 21:13:14: "sv_specaccelerate" = "5.000000"
+L 12/06/2023 - 21:13:14: "sv_specspeed" = "1200.000000"
+L 12/06/2023 - 21:13:14: "sv_specnoclip" = "true"
+L 12/06/2023 - 21:13:14: "sv_maxspeed" = "320.000000"
+L 12/06/2023 - 21:13:14: "sv_accelerate" = "5.500000"
+L 12/06/2023 - 21:13:14: "sv_airaccelerate" = "12.000000"
+L 12/06/2023 - 21:13:14: "sv_wateraccelerate" = "10.000000"
+L 12/06/2023 - 21:13:14: "sv_waterfriction" = "1.000000"
+L 12/06/2023 - 21:13:14: "sv_friction" = "5.200000"
+L 12/06/2023 - 21:13:14: "sv_bounce" = "0.000000"
+L 12/06/2023 - 21:13:14: "r_JeepViewDampenFreq" = "7.000000"
+L 12/06/2023 - 21:13:14: "r_JeepViewDampenDamp" = "1.000000"
+L 12/06/2023 - 21:13:14: "r_JeepViewZHeight" = "10.000000"
+L 12/06/2023 - 21:13:14: "r_AirboatViewDampenFreq" = "7.000000"
+L 12/06/2023 - 21:13:14: "r_AirboatViewDampenDamp" = "1.000000"
+L 12/06/2023 - 21:13:14: "r_AirboatViewZHeight" = "0.000000"
+L 12/06/2023 - 21:13:14: "sv_allchat" = "true"
+L 12/06/2023 - 21:13:14: "buddha" = "false"
+L 12/06/2023 - 21:13:14: "buddha_ignore_bots" = "false"
+L 12/06/2023 - 21:13:14: "buddha_reset_hp" = "1"
+L 12/06/2023 - 21:13:14: "sv_autobuyammo" = "false"
+L 12/06/2023 - 21:13:14: "sv_accelerate_use_weapon_speed" = "true"
+L 12/06/2023 - 21:13:14: "sv_accelerate_debug_speed" = "false"
+L 12/06/2023 - 21:13:14: "cash_team_terrorist_win_bomb" = "3500"
+L 12/06/2023 - 21:13:14: "cash_team_elimination_hostage_map_t" = "1000"
+L 12/06/2023 - 21:13:14: "cash_team_elimination_hostage_map_ct" = "2000"
+L 12/06/2023 - 21:13:14: "cash_team_elimination_bomb_map" = "3250"
+L 12/06/2023 - 21:13:14: "cash_team_survive_guardian_wave" = "1000"
+L 12/06/2023 - 21:13:14: "cash_team_win_by_time_running_out_hostage" = "3250"
+L 12/06/2023 - 21:13:14: "cash_team_win_by_time_running_out_bomb" = "3250"
+L 12/06/2023 - 21:13:14: "cash_team_win_by_defusing_bomb" = "3250"
+L 12/06/2023 - 21:13:14: "cash_team_win_by_hostage_rescue" = "3500"
+L 12/06/2023 - 21:13:14: "cash_team_loser_bonus" = "1400"
+L 12/06/2023 - 21:13:14: "cash_team_loser_bonus_consecutive_rounds" = "500"
+L 12/06/2023 - 21:13:14: "cash_team_winner_bonus_consecutive_rounds" = "0"
+L 12/06/2023 - 21:13:14: "cash_team_rescued_hostage" = "0"
+L 12/06/2023 - 21:13:14: "cash_team_hostage_alive" = "0"
+L 12/06/2023 - 21:13:14: "cash_team_planted_bomb_but_defused" = "800"
+L 12/06/2023 - 21:13:14: "cash_team_hostage_interaction" = "500"
+L 12/06/2023 - 21:13:14: "cash_team_bonus_shorthanded" = "0"
+L 12/06/2023 - 21:13:14: "cash_player_killed_teammate" = "-300"
+L 12/06/2023 - 21:13:14: "cash_player_killed_enemy_factor" = "1.000000"
+L 12/06/2023 - 21:13:14: "cash_player_killed_enemy_default" = "300"
+L 12/06/2023 - 21:13:14: "cash_player_bomb_planted" = "300"
+L 12/06/2023 - 21:13:14: "cash_player_bomb_defused" = "300"
+L 12/06/2023 - 21:13:14: "cash_player_rescued_hostage" = "1000"
+L 12/06/2023 - 21:13:14: "cash_player_interact_with_hostage" = "150"
+L 12/06/2023 - 21:13:14: "cash_player_damage_hostage" = "-30"
+L 12/06/2023 - 21:13:14: "cash_player_killed_hostage" = "-1000"
+L 12/06/2023 - 21:13:14: "cash_player_respawn_amount" = "0"
+L 12/06/2023 - 21:13:14: "cash_player_get_killed" = "0"
+L 12/06/2023 - 21:13:14: "sv_competitive_minspec" = "true"
+L 12/06/2023 - 21:13:14: "mp_teammates_are_enemies" = "false"
+L 12/06/2023 - 21:13:14: "mp_buy_anywhere" = "0"
+L 12/06/2023 - 21:13:14: "mp_buy_during_immunity" = "0"
+L 12/06/2023 - 21:13:14: "sv_kick_ban_duration" = "15.000000"
+L 12/06/2023 - 21:13:14: "sv_deadtalk" = "false"
+L 12/06/2023 - 21:13:14: "sv_spec_hear" = "1"
+L 12/06/2023 - 21:13:14: "mp_c4timer" = "40"
+L 12/06/2023 - 21:13:14: "mp_roundtime" = "5.000000"
+L 12/06/2023 - 21:13:14: "mp_roundtime_hostage" = "0.000000"
+L 12/06/2023 - 21:13:14: "mp_roundtime_defuse" = "0.000000"
+L 12/06/2023 - 21:13:14: "mp_team_intro_time" = "6.500000"
+L 12/06/2023 - 21:13:14: "mp_freezetime" = "6"
+L 12/06/2023 - 21:13:14: "mp_limitteams" = "2"
+L 12/06/2023 - 21:13:14: "sv_teamid_overhead_always_prohibit" = "false"
+L 12/06/2023 - 21:13:14: "sv_show_team_equipment_prohibit" = "false"
+L 12/06/2023 - 21:13:14: "sv_teamid_overhead" = "true"
+L 12/06/2023 - 21:13:14: "mp_autoteambalance" = "true"
+L 12/06/2023 - 21:13:14: "mp_maxrounds" = "0"
+L 12/06/2023 - 21:13:14: "sv_max_allowed_net_graph" = "1"
+L 12/06/2023 - 21:13:14: "mp_timelimit" = "0.000000"
+L 12/06/2023 - 21:13:14: "mp_fraglimit" = "0"
+L 12/06/2023 - 21:13:14: "nextmode" = ""
+L 12/06/2023 - 21:13:14: "nextlevel" = ""
+L 12/06/2023 - 21:13:14: "sv_gravity" = "800.000000"
+L 12/06/2023 - 21:13:14: "sv_vote_issue_kick_allowed" = "true"
+L 12/06/2023 - 21:13:14: "sv_vote_kick_ban_duration" = "15.000000"
+L 12/06/2023 - 21:13:14: "sv_vote_issue_loadbackup_allowed" = "true"
+L 12/06/2023 - 21:13:14: "sv_vote_issue_loadbackup_spec_only" = "false"
+L 12/06/2023 - 21:13:14: "sv_vote_issue_pause_match_spec_only" = "false"
+L 12/06/2023 - 21:13:14: server cvars end
+Created poll group for socket 'server'
+SDR RelayNetworkStatus:  avail=Attempting  config=Attempting  anyrelay=Not Attempted   (Attempt #1 to fetch config (only-if-cached) from https://api.steampowered.com/ISteamApps/GetSDRConfig/v1?appid=730)
+AuthStatus (invalid):  Waiting  (Waiting for Steam login)
+Network socket 'server' opened on port 27015
+Initializing CSGO VScript Game System
+SV:  Executing server defaults
+SV:  Executing dedicated server config file
+[STARTUP] {3.932} created game rules
+GameTypes: could not find matching game mode value of "" in any game type.
+SV:  CGameRulesGameSystem::GameInit installed game rules
+LoadResponseSystem scripts/talker/response_rules.vrr - StartCResponseSystem:  scripts/talker/response_rules.vrr (7681 rules, 811 criteria, and 7681 responses)
+LoadResponseSystem scripts/talker/response_rules.vrr - FinishEntry player was not found in surfaceproperties_footsteps.txt
+exec: couldn't exec '{*}cfg/skill1.cfg', unable to read file
+execing server_default.cfg
+execing server.cfg
+execing gamemode_casual.cfg
+exec: couldn't exec '{*}cfg/gamemode_casual_server.cfg', unable to read file
+L 12/06/2023 - 21:13:15: server_cvar: "cash_player_bomb_defused" "200"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_player_bomb_planted" "200"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_player_interact_with_hostage" "300"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_player_killed_enemy_default" "200"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_player_killed_enemy_factor" "0.500000"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_elimination_bomb_map" "2700"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_elimination_hostage_map_t" "2000"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_elimination_hostage_map_ct" "2300"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_loser_bonus" "2400"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_loser_bonus_consecutive_rounds" "0"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_planted_bomb_but_defused" "200"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_terrorist_win_bomb" "2700"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_win_by_defusing_bomb" "2700"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_win_by_hostage_rescue" "3000"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_win_by_time_running_out_hostage" "2000"
+L 12/06/2023 - 21:13:15: server_cvar: "cash_team_win_by_time_running_out_bomb" "2700"
+L 12/06/2023 - 21:13:15: server_cvar: "mp_freezetime" "5"
+L 12/06/2023 - 21:13:15: server_cvar: "mp_friendlyfire" "true"
+L 12/06/2023 - 21:13:15: server_cvar: "mp_maxrounds" "15"
+Unknown command 'mp_molotovusedelay'!
+L 12/06/2023 - 21:13:15: server_cvar: "mp_roundtime" "3.000000"
+L 12/06/2023 - 21:13:15: server_cvar: "mp_roundtime_hostage" "2.000000"
+L 12/06/2023 - 21:13:15: server_cvar: "mp_roundtime_defuse" "2.250000"
+Unknown command 'spec_freeze_panel_extended_time'!
+Unknown command 'sv_occlude_players'!
+Unknown command 'occlusion_test_async'!
+Unknown command 'sv_gameinstructor_enable'!
+[S_API FAIL] Tried to access Steam interface SteamUser023 before SteamAPI_Init succeeded.
+Failed loading resource "materials/models/player/holiday/santahat.vmat_c" (ERROR_FILEOPEN: File not found)
+Failed loading resource "materials/models/player/holiday/facemasks/facemask_battlemask/battlemask.vmat_c" (ERROR_FILEOPEN: File not found)
+[S_API FAIL] Tried to access Steam interface SteamUtils010 before SteamAPI_Init succeeded.
+Failed loading resource "models/weapons/v_tablet.vmdl_c" (ERROR_FILEOPEN: File not found)
+Model models/props/crates/csgo_drop_crate_bravo.vmdl: sequence/animation name collision found "tools_preview"
+Model !embedded_sequence_data!characters/models/shared/animsets/animset_t.vmdl: unable to find bone reference "ball_l"
+Model !embedded_sequence_data!characters/models/shared/animsets/animset_ct.vmdl: unable to find bone reference "ball_l"
+Model !embedded_sequence_data!characters/models/shared/animsets/animset_uiplayer.vmdl: unable to find bone reference "ball_l"
+Model models/props/crates/csgo_drop_crate_winteroffensive.vmdl: sequence/animation name collision found "tools_preview"
+Model !embedded_sequence_data!characters/models/shared/animsets/animset_ct.vmdl: unable to find bone reference "ball_l"
+Model !embedded_sequence_data!characters/models/shared/animsets/animset_uiplayer.vmdl: unable to find bone reference "ball_l"
+Model models/props/crates/csgo_drop_crate_armsdeal3.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_phoenix.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_huntsman.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_breakout.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_vanguard.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_dangerzone.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_chroma.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_community_22.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_community_23.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_community_24.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_chroma2.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_community_25.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_chroma3.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_bloodhound.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_community_26.vmdl: sequence/animation name collision found "tools_preview"
+material2.cpp(711): Error! Material "materials/error.vmat" doesn't have any valid layers to get the CVsInputSignatureVector from!
+material2.cpp(711): Error! Material "materials/error.vmat" doesn't have any valid layers to get the CVsInputSignatureVector from!
+Model models/props/crates/csgo_drop_crate_community_27.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_gamma.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_community_28.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_community_29.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_shadow.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_gamma2.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_armsdeal1.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_glove.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_community_30.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_community_31.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_revolver.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_spectrum.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_community_32.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_hydra.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_wildfire.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_spectrum2.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_clutch.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_horizon.vmdl: sequence/animation name collision found "tools_preview"
+Model models/props/crates/csgo_drop_crate_armsdeal2.vmdl: sequence/animation name collision found "tools_preview"
+SV:  Spawn Server: de_anubis
+CNetworkGameServerBase::SetServerState (ss_waitingforgamesessionmanifest -> ss_loading)
+L 12/06/2023 - 21:13:16: Started:  ""
+Got SDR network config.  Loaded revision 1700157702 OK
+SDR RelayNetworkStatus:  avail=Not Attempted  config=OK  anyrelay=Not Attempted   (No need for SDR client network access)
+CWorldRendererMgr::ServiceWorldRequests long frame: 56.821169ms
+Failed loading resource "maps/prefabs/misc/terrorist_team_intro_variant2/world_visibility.vvis_c" (ERROR_FILEOPEN: File not found)
+CNetworkGameServerBase::SetServerState (ss_loading -> ss_active)
+SV:  IGameSystem::LoopActivateAllSystems {
+HO:  IGameSystem::LoopActivateAllSystems {
+HO:  } IGameSystem::LoopActivateAllSystems done
+SV:  } IGameSystem::LoopActivateAllSystems done
+Created physics for de_anubis
+CNavGenParams - Nav mesh requests project default generation parameters but actual parameters
+  used during construction differ from defaults. Please re-export the map.
+CNavGenParams - Nav mesh requests project default generation parameters but actual parameters
+  used during construction differ from defaults. Please re-export the map.
+CNavGenParams - Nav mesh requests project default generation parameters but actual parameters
+  used during construction differ from defaults. Please re-export the map.
+CNavGenParams - Nav mesh requests project default generation parameters but actual parameters
+  used during construction differ from defaults. Please re-export the map.
+CNavGenParams - Nav mesh requests project default generation parameters but actual parameters
+  used during construction differ from defaults. Please re-export the map.
+CNavGenParams - Nav mesh requests project default generation parameters but actual parameters
+  used during construction differ from defaults. Please re-export the map.
+CNavGenParams - Nav mesh requests project default generation parameters but actual parameters
+  used during construction differ from defaults. Please re-export the map.
+SV:  16 player server started
+CSource2Server::GameServerSteamAPIActivated()
+Error parsing botprofile.db - unknown attribute 'Rank'
+Error parsing botprofile.db - unknown attribute 'Rank'
+Error parsing botprofile.db - unknown attribute 'Rank'
+Error parsing botprofile.db - unknown attribute 'Rank'
+Error parsing botprofile.db - unknown attribute 'Rank'
+Error parsing botprofile.db - unknown attribute 'Rank'
+Error parsing botprofile.db - unknown attribute 'Rank'
+Error parsing botprofile.db - unknown attribute 'Rank'
+Host activate: Loading (de_anubis)
+SV:  Connection to Steam servers successful.
+SV:  ServerSteamID=[A:1:1077985293:24799] (90178504519368717).
+[STARTUP] {6.539} logged on to Steam
+Gameserver logged on to Steam, assigned identity steamid:90178504519368717
+AuthStatus (steamid:90178504519368717):  Attempting  (Requesting cert)
+Set SteamNetworkingSockets P2P_STUN_ServerList to '155.133.227.50:3478' as per SteamNetworkingSocketsSerialized
+SV:  VAC secure mode is activated.
+AuthStatus (steamid:90178504519368717):  OK  (OK)
+Certificate expires in 48h00m at 1702080799 (current time 1701907997), will renew in 46h00m
+GC Connection established for server version 2000206, instance idx 1
+[STARTUP] {7.087} activated session on GC
+Accepting Steam Net connection #2652555248 UDP steamid:76561198228265804@172.18.224.1:50513
+Sending S2C_CHALLENGE [0 auth 3] to 172.18.224.1:50513
+Receiving C2S_CONNECT [protocol 13976 0 auth 3] from 172.18.224.1:50513
+CNetworkGameServerBase::ConnectClient( name='Chico;Gama', remote='172.18.224.1:50513' )
+Creating NetChan for user 0 'Chico;Gama' @ 172.18.224.1:50513
+Associating NetChan   Chico;Gama    172.18.224.1:50513[1] (172.18.224.1:50513) with Steam Net Connection handle #2652555248 (userdata 0)
+CServerSideClientBase::Connect( name='Chico;Gama', userid=0, fake=0, chan->addr=172.18.224.1:50513 )
+Client 0 'Chico;Gama' signon state SIGNONSTATE_NONE -> SIGNONSTATE_CONNECTED
+Server waking up from hibernation
+L 12/06/2023 - 21:14:37: "Chico;Gama<0><[U:1:268000076]><>" connected, address "172.18.224.1:50513"
+Sending S2C_CONNECTION to 172.18.224.1:50513 [addons:'']
+Client #0 "Chico;Gama" connected @ 172.18.224.1:50513
+L 12/06/2023 - 21:14:37: World triggered "Round_Start"
+ClientPutInServer create new player controller [Chico;Gama]
+Client 0 'Chico;Gama' setting rate to 786432
+CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+Client 0 'Chico;Gama' signon state SIGNONSTATE_CONNECTED -> SIGNONSTATE_NEW
+CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+CRecipientFilter::AddAllPlayers - no recipients for this message, but 1 player in process of connecting was not included.
+Client 0 'Chico;Gama' signon state SIGNONSTATE_NEW -> SIGNONSTATE_PRESPAWN
+Client 0 'Chico;Gama' signon state SIGNONSTATE_PRESPAWN -> SIGNONSTATE_SPAWN
+SV:  "Chico;Gama<0><[U:1:268000076]><>" STEAM USERID validated
+L 12/06/2023 - 21:14:38: "Chico;Gama<0><[U:1:268000076]><>" STEAM USERID validated
+Client 0 'Chico;Gama' signon state SIGNONSTATE_SPAWN -> SIGNONSTATE_FULL
+L 12/06/2023 - 21:14:47: "Chico;Gama<0><[U:1:268000076]><>" entered the game
+SV:  Sending full update to client Chico;Gama (reason:  initial update)
+  Chico;Gama    172.18.224.1:50513[1]:  NetChan Setting Timeout to 20.00 seconds
+"Chico;Gama<0><[U:1:268000076]><Unassigned>" ChangeTeam() CTMDBG , team 0, req team 3 willSwitch 0, 100.52 
+L 12/06/2023 - 21:14:56: "Chico;Gama<0><[U:1:268000076]>" switched from team <Unassigned> to <CT>
+L 12/06/2023 - 21:14:56: World triggered "Game_Commencing"
+L 12/06/2023 - 21:14:56: "Shaur<1><BOT><>" connected, address "none"
+ClientPutInServer create new player controller [Shaur]
+L 12/06/2023 - 21:14:56: "Shaur<1><BOT><>" entered the game
+"Shaur<1><BOT><Unassigned>" ChangeTeam() CTMDBG , team 0, req team 2 willSwitch 0, 100.52 
+L 12/06/2023 - 21:14:56: "Shaur<1><BOT>" switched from team <Unassigned> to <TERRORIST>
+L 12/06/2023 - 21:14:56: "Feliz<2><BOT><>" connected, address "none"
+ClientPutInServer create new player controller [Feliz]
+L 12/06/2023 - 21:14:56: "Feliz<2><BOT><>" entered the game
+"Feliz<2><BOT><Unassigned>" ChangeTeam() CTMDBG , team 0, req team 2 willSwitch 0, 100.52 
+L 12/06/2023 - 21:14:56: "Feliz<2><BOT>" switched from team <Unassigned> to <TERRORIST>
+L 12/06/2023 - 21:14:56: "Orin<3><BOT><>" connected, address "none"
+ClientPutInServer create new player controller [Orin]
+L 12/06/2023 - 21:14:56: "Orin<3><BOT><>" entered the game
+"Orin<3><BOT><Unassigned>" ChangeTeam() CTMDBG , team 0, req team 3 willSwitch 0, 100.52 
+L 12/06/2023 - 21:14:56: "Orin<3><BOT>" switched from team <Unassigned> to <CT>
+L 12/06/2023 - 21:14:56: "Striker<4><BOT><>" connected, address "none"
+ClientPutInServer create new player controller [Striker]
+L 12/06/2023 - 21:14:56: "Striker<4><BOT><>" entered the game
+"Striker<4><BOT><Unassigned>" ChangeTeam() CTMDBG , team 0, req team 2 willSwitch 0, 100.52 
+L 12/06/2023 - 21:14:56: "Striker<4><BOT>" switched from team <Unassigned> to <TERRORIST>
+L 12/06/2023 - 21:14:56: "Boxcar<5><BOT><>" connected, address "none"
+ClientPutInServer create new player controller [Boxcar]
+L 12/06/2023 - 21:14:56: "Boxcar<5><BOT><>" entered the game
+"Boxcar<5><BOT><Unassigned>" ChangeTeam() CTMDBG , team 0, req team 3 willSwitch 0, 100.52 
+L 12/06/2023 - 21:14:56: "Boxcar<5><BOT>" switched from team <Unassigned> to <CT>
+L 12/06/2023 - 21:14:56: "Comb<6><BOT><>" connected, address "none"
+ClientPutInServer create new player controller [Comb]
+L 12/06/2023 - 21:14:56: "Comb<6><BOT><>" entered the game
+"Comb<6><BOT><Unassigned>" ChangeTeam() CTMDBG , team 0, req team 3 willSwitch 0, 100.52 
+L 12/06/2023 - 21:14:56: "Comb<6><BOT>" switched from team <Unassigned> to <CT>
+L 12/06/2023 - 21:14:56: "Hogarth<7><BOT><>" connected, address "none"
+ClientPutInServer create new player controller [Hogarth]
+L 12/06/2023 - 21:14:56: "Hogarth<7><BOT><>" entered the game
+"Hogarth<7><BOT><Unassigned>" ChangeTeam() CTMDBG , team 0, req team 2 willSwitch 0, 100.52 
+L 12/06/2023 - 21:14:56: "Hogarth<7><BOT>" switched from team <Unassigned> to <TERRORIST>
+L 12/06/2023 - 21:14:56: "Imaru<8><BOT><>" connected, address "none"
+ClientPutInServer create new player controller [Imaru]
+L 12/06/2023 - 21:14:56: "Imaru<8><BOT><>" entered the game
+"Imaru<8><BOT><Unassigned>" ChangeTeam() CTMDBG , team 0, req team 3 willSwitch 0, 100.52 
+L 12/06/2023 - 21:14:56: "Imaru<8><BOT>" switched from team <Unassigned> to <CT>
+L 12/06/2023 - 21:14:56: "Hobart<9><BOT><>" connected, address "none"
+ClientPutInServer create new player controller [Hobart]
+L 12/06/2023 - 21:14:56: "Hobart<9><BOT><>" entered the game
+"Hobart<9><BOT><Unassigned>" ChangeTeam() CTMDBG , team 0, req team 2 willSwitch 0, 100.52 
+L 12/06/2023 - 21:14:56: "Hobart<9><BOT>" switched from team <Unassigned> to <TERRORIST>
+"Chico;Gama<0><[U:1:268000076]><CT>" OnPreResetRound => CTMDBG, team 3  will switch 0 100.52 
+"Shaur<1><BOT><TERRORIST>" OnPreResetRound => CTMDBG, team 2  will switch 0 100.52 
+"Feliz<2><BOT><TERRORIST>" OnPreResetRound => CTMDBG, team 2  will switch 0 100.52 
+"Orin<3><BOT><CT>" OnPreResetRound => CTMDBG, team 3  will switch 0 100.52 
+"Striker<4><BOT><TERRORIST>" OnPreResetRound => CTMDBG, team 2  will switch 0 100.52 
+"Boxcar<5><BOT><CT>" OnPreResetRound => CTMDBG, team 3  will switch 0 100.52 
+"Comb<6><BOT><CT>" OnPreResetRound => CTMDBG, team 3  will switch 0 100.52 
+"Hogarth<7><BOT><TERRORIST>" OnPreResetRound => CTMDBG, team 2  will switch 0 100.52 
+"Imaru<8><BOT><CT>" OnPreResetRound => CTMDBG, team 3  will switch 0 100.52 
+"Hobart<9><BOT><TERRORIST>" OnPreResetRound => CTMDBG, team 2  will switch 0 100.52 
+L 12/06/2023 - 21:14:56: Starting Freeze period
+L 12/06/2023 - 21:14:56: World triggered "Match_Start" on "de_anubis"
+L 12/06/2023 - 21:14:56: MatchStatus: Team "CT" is unset.
+L 12/06/2023 - 21:14:56: MatchStatus: Team "TERRORIST" is unset.
+L 12/06/2023 - 21:14:56: MatchStatus: Score: 0:0 on map "de_anubis" RoundsPlayed: -1
+SV: 'Chico;Gama' (tick 6439) CQ:  catching up - trying to trim queue containing 3 commands
+SV: 'Chico;Gama' (tick 6440) CQ:  catching up - trying to trim queue containing 1 commands
+L 12/06/2023 - 21:14:56: "Shaur<1><BOT><TERRORIST>" purchased "xm1014"
+L 12/06/2023 - 21:14:56: "Shaur<1><BOT><TERRORIST>" purchased "p250"
+L 12/06/2023 - 21:14:56: "Orin<3><BOT><CT>" purchased "awp"
+L 12/06/2023 - 21:14:56: "Orin<3><BOT><CT>" purchased "fiveseven"
+L 12/06/2023 - 21:14:56: "Striker<4><BOT><TERRORIST>" purchased "ssg08"
+L 12/06/2023 - 21:14:56: "Striker<4><BOT><TERRORIST>" purchased "p250"
+L 12/06/2023 - 21:14:56: "Hogarth<7><BOT><TERRORIST>" purchased "mac10"
+L 12/06/2023 - 21:14:56: "Hogarth<7><BOT><TERRORIST>" purchased "deagle"
+L 12/06/2023 - 21:14:56: "Imaru<8><BOT><CT>" purchased "awp"
+L 12/06/2023 - 21:14:56: "Imaru<8><BOT><CT>" purchased "deagle"
+L 12/06/2023 - 21:14:56: "Imaru<8><BOT><CT>" purchased "incgrenade"
+L 12/06/2023 - 21:14:56: "Hobart<9><BOT><TERRORIST>" purchased "galilar"
+L 12/06/2023 - 21:14:56: "Comb<6><BOT><CT>" purchased "mp9"
+L 12/06/2023 - 21:14:56: "Comb<6><BOT><CT>" purchased "deagle"
+L 12/06/2023 - 21:14:56: "Feliz<2><BOT><TERRORIST>" purchased "p90"
+L 12/06/2023 - 21:14:56: "Feliz<2><BOT><TERRORIST>" purchased "p250"
+L 12/06/2023 - 21:14:56: "Boxcar<5><BOT><CT>" purchased "famas"
+L 12/06/2023 - 21:14:56: "Boxcar<5><BOT><CT>" purchased "fiveseven"
+L 12/06/2023 - 21:14:56: "Boxcar<5><BOT><CT>" purchased "hegrenade"
+L 12/06/2023 - 21:14:58: World triggered "Round_Start"
+L 12/06/2023 - 21:15:01: "Chico;Gama<0><[U:1:268000076]><CT>" purchased "awp"
+L 12/06/2023 - 21:15:11: "Boxcar<5><BOT><CT>" threw hegrenade [-1557 215 2]
+[S_API FAIL] Tried to access Steam interface SteamUtils010 before SteamAPI_Init succeeded.
+L 12/06/2023 - 21:15:15: "Chico;Gama<0><[U:1:268000076]><CT>" [-1468 -122 32] killed "Feliz<2><BOT><TERRORIST>" [-1024 69 24] with "awp"
+RemoveArrayElementsOutsideOfArrayMetadataBounds:  CCSGOViewModel [ent 205] removing change '3/9/35' for field m_PredNetIntVariables[35] (value '0') on array that has metadata with only 35 array elements!
+L 12/06/2023 - 21:15:19: "Feliz<2><BOT><TERRORIST>" purchased "sg556"
+L 12/06/2023 - 21:15:19: "Feliz<2><BOT><TERRORIST>" purchased "hegrenade"
+L 12/06/2023 - 21:15:22: "Comb<6><BOT><CT>" [-855 -665 64] killed "Shaur<1><BOT><TERRORIST>" [-741 -657 73] with "mp9"
+L 12/06/2023 - 21:15:22: "Chico;Gama<0><[U:1:268000076]><CT>" assisted killing "Shaur<1><BOT><TERRORIST>"
+L 12/06/2023 - 21:15:23: "Hobart<9><BOT><TERRORIST>" [-183 -130 0] killed "Chico;Gama<0><[U:1:268000076]><CT>" [-843 -739 64] with "galilar"
+L 12/06/2023 - 21:15:25: "Hogarth<7><BOT><TERRORIST>" [-200 -97 0] killed "Comb<6><BOT><CT>" [-855 -665 64] with "mac10" (headshot)
+L 12/06/2023 - 21:15:26: "Feliz<2><BOT><TERRORIST>" [-741 -1330 20] killed "Boxcar<5><BOT><CT>" [-1025 -1016 64] with "sg556"
+[#2652555248 UDP steamid:76561198228265804@172.18.224.1:50513] closed by peer (1002): NETWORK_DISCONNECT_DISCONNECT_BY_USER
+Steam Net connection #2652555248 UDP steamid:76561198228265804@172.18.224.1:50513 closed by peer, reason 1002: NETWORK_DISCONNECT_DISCONNECT_BY_USER
+NETWORK_DISCONNECT_DISCONNECT_BY_USER
+CloseSteamNetConnection handle #2652555248 (userdata 0)
+Disassociating NetChan   Chico;Gama    172.18.224.1:50513[1] (172.18.224.1:50513) from Steam Net Connection handle #2652555248 (userdata 0)
+Summary of connection [#2652555248 UDP steamid:76561198228265804@172.18.224.1:50513]:
+    End-to-end connection: closed by remote host, reason code 1002.  (NETWORK_DISCONNECT_DISCONNECT_BY_USER)
+        Current rates:
+            Sent:  67.6 pkts/sec  50.2 K/sec
+            Recv:  64.0 pkts/sec  24.1 K/sec
+            Ping:0ms    Max latency variance: ???ms
+            Quality:  100%  (Dropped:0.00%  WeirdSeq:0.00%)
+            Est avail bandwidth: 768.0KB/s  
+            Bytes buffered: 0
+        Lifetime stats:
+            Totals
+                Sent:      2,967 pkts       2,342,097 bytes
+                Recv:      3,586 pkts       1,279,861 bytes
+                Recv w seq:      3,584 pkts
+                Dropped   :          0 pkts   0.00%
+                OutOfOrder:          0 pkts   0.00%
+                OOOFixed  :          0 pkts   0.00%
+                Duplicate :          0 pkts   0.00%
+                SeqLurch  :          0 pkts   0.00%
+            Ping histogram: (2524 total samples)
+                     0-25    25-50    50-75   75-100  100-125  125-150  150-200  200-300     300+
+                     2524        0        0        0        0        0        0        0        0
+                   100.0%     0.0%     0.0%     0.0%     0.0%     0.0%     0.0%     0.0%     0.0%
+            Ping distribution:
+                5th   50th   75th   95th   98th
+                0ms    0ms    0ms    0ms    0ms
+            Connection quality histogram: (10 measurement intervals)
+                perfect    99+  97-99  95-97  90-95  75-90  50-75    <50   dead
+                     10      0      0      0      0      0      0      0      0
+                 100.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%   0.0%
+            Connection quality distribution:
+              50th  25th
+              100%  100%
+            Latency variance histogram not available
+        Rate stats received from remote host 13.5s ago:
+            Sent:  63.6 pkts/sec  34.3 K/sec
+            Recv:  66.6 pkts/sec  62.2 K/sec
+            Ping:0ms    Max latency variance: ???ms
+            Quality:  100%  (Dropped:0.00%  WeirdSeq:0.00%)
+            Bytes buffered: 0
+        No lifetime stats received from remote host
+    
+Removing Steam Net Connection for 172.18.224.1:50513, handle #2652555248
+SV:  Disconnect client 'Chico;Gama' from server(2): NETWORK_DISCONNECT_DISCONNECT_BY_USER
+L 12/06/2023 - 21:15:31: "Chico;Gama<0><[U:1:268000076]><CT>" disconnected (reason "NETWORK_DISCONNECT_DISCONNECT_BY_USER")
+"Chico;Gama<0><[U:1:268000076]><CT>" ChangeTeam() CTMDBG , team 3, req team 0 willSwitch 0, 135.30 
+L 12/06/2023 - 21:15:31: "Chico;Gama<0><[U:1:268000076]>" switched from team <CT> to <Unassigned>
+L 12/06/2023 - 21:15:31: "Chico;Gama<0><[U:1:268000076]><Unassigned>" [-608 2120 16] committed suicide with "world"
+Client 0 'Chico;Gama' signon state SIGNONSTATE_FULL -> SIGNONSTATE_NONE
+Server is hibernating
+L 12/06/2023 - 21:15:31: "Shaur<1><BOT><TERRORIST>" disconnected (reason "NETWORK_DISCONNECT_INVALID")
+L 12/06/2023 - 21:15:31: "Feliz<2><BOT><TERRORIST>" disconnected (reason "NETWORK_DISCONNECT_INVALID")
+L 12/06/2023 - 21:15:31: "Orin<3><BOT><CT>" disconnected (reason "NETWORK_DISCONNECT_INVALID")
+L 12/06/2023 - 21:15:31: "Striker<4><BOT><TERRORIST>" disconnected (reason "NETWORK_DISCONNECT_INVALID")
+L 12/06/2023 - 21:15:31: "Boxcar<5><BOT><CT>" disconnected (reason "NETWORK_DISCONNECT_INVALID")
+L 12/06/2023 - 21:15:31: "Comb<6><BOT><CT>" disconnected (reason "NETWORK_DISCONNECT_INVALID")
+L 12/06/2023 - 21:15:31: "Hogarth<7><BOT><TERRORIST>" disconnected (reason "NETWORK_DISCONNECT_INVALID")
+L 12/06/2023 - 21:15:31: "Imaru<8><BOT><CT>" disconnected (reason "NETWORK_DISCONNECT_INVALID")
+L 12/06/2023 - 21:15:31: "Hobart<9><BOT><TERRORIST>" disconnected (reason "NETWORK_DISCONNECT_INVALID")
+ResetGameConVarsToDefaults
+SV:  Dropped client 'Chico;Gama' from server(2): NETWORK_DISCONNECT_DISCONNECT_BY_USER
+quit
+CHostStateMgr::QueueNewRequest( Quitting, 4 )
+HostStateRequest::Start(HSR_QUIT)
+SV:  Server shutting down: NETWORK_DISCONNECT_EXITING (59)
+CNetworkGameServerBase::SetServerState (ss_active -> ss_dead)
+CSteam3ServerS1::ShutdownGameServer
+CNetworkSystem::ShutdownGameServer
+Closing 'server' UDP listen socket
+Closing 'server' poll group
+CNetworkSystem::CleanupDebugOutputFunction()
+CSource2Server::GameServerSteamAPIDeactivated()
+L 12/06/2023 - 21:16:31: Log file closed
+SV:  IGameSystem::LoopDeactivateAllSystems {
+[S_API FAIL] Tried to access Steam interface SteamUtils010 before SteamAPI_Init succeeded.
+HO:  IGameSystem::LoopDeactivateAllSystems {
+HO:  } IGameSystem::LoopDeactivateAllSystems done
+SV:  } IGameSystem::LoopDeactivateAllSystems done
+SV: CNetworkStringTableContainer::RemoveAllTables:  removing 12 tables
+CL: CNetworkStringTableContainer::RemoveAllTables:  removing 12 tables
+SV:  CGameRulesGameSystem::GameShutdown uninstalled game rules
+SV:  CGameRules::CGameRules destructed
+Host activate: Quitting
+Dispatching EventAppShutdown_t {
+Requested non-existent write path USRLOCAL!
+Requested non-existent write path USRLOCAL!
+Error writing user config file 'cfg/cs2_user_keys_0_slot0.vcfg'
+Requested non-existent write path USRLOCAL!
+Error writing user config file 'cfg/cs2_user_convars_0_slot0.vcfg'
+} Dispatched EventAppShutdown_t
+MainLoop returning
+Source2Shutdown
+ShutdownSource2Logging
+CNetworkSystem::Shutdown()
+CNetworkSystem::CloseAllSockets()
+Forgot to remove resource type manager for type vpost!
+Forgot to remove resource type manager for type vpcf!
+Forgot to remove resource type manager for type vsnap!
